@@ -28,7 +28,7 @@ function changeLang() {
             '<div class="content-box__footer">'+
             '<a href="https://play.google.com/store">'+
             '<div class="content-box__footer_google">'+
-            '<img src="images/googleplay-EN.png" alt="googleplay-EN">'+
+            '<img src="images/googlePlay-EN.jpg" alt="googlePlay-EN">'+
             '</div>'+
             '</a>'+
             '</div>'
