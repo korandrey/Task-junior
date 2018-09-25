@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Тестовое задание</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="UTF-8"></script>
+    <script async src="js/main.js"></script>
+    <script async src="js/change_language.js"></script>
+</head>
+<body vlink='#385dae'>
+    <div class="wrapper">
+            <div class="csa-head"></div>
+        <div class="content-box">
+            <div class= "content-box__header">
+                <div class="content-box__header_logo">
+                    <img src="images/logo.jpg" alt="logo">
+                </div>
+            </div>
+            <div class="content-box__form">
+                <div class="content-box__form_input">
+                    <input type="text" placeholder="GLN">
+                    <input type="email" placeholder="Пользователь">
+                    <input type="password" placeholder="Пароль">
+                    <button type="submit">Войти</button>
+                    <a href="">Онлайн-демо</a>
+                </div>    
+            </div>
+            <div class="content-box__footer">
+                    <a href="https://play.google.com/store">
+                        <div class="content-box__footer_google">
+                            <img src="images/googleplay-RU.jpg" alt="googleplay-RU">
+                        </div>
+                    </a>
+            </div>
+        </div>
+    </div>    
+
+        <footer>
+            <div class="footer__sidebar">
+                <ul>
+                    <li>HelpDesk</li>
+                    <li>Документация</li>
+                    <li> <img src="icon/mail-black-envelope-symbol.png" alt="mail"> support@edweb.ru</li>
+                    <li class="footer__phone"> <img src="icon/icon-phone.png" alt="phone">8-800-7777-801</li>
+                    <li class="footer__language"> <img id="worlwide" src="icon/worlwide.png" alt="language"> 
+                        <form>
+                            <select class="selectBox" onchange="changeLang()" name="language" size="1">
+                                <option id="option_ru" value="ru">RU</option>
+                                <option id="option_en" value="en">EN</option>
+                            </select>
+                        </form> 
+                    </li>
+                </ul>
+        </div>
+        </footer>    
+</body>
+</html>
